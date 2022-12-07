@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.projectmanager.teamup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_intro_pic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_intro_pic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeamUp"
+        >
+        <activity
+            android:name=".Activity_Screen.Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screen.Register_Screen"
+            android:exported="false"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.TeamUp.NoActionBar" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA4Zn-31k9LuPpECjp-W-ViNL75d8O4WV8" />
+
+        <activity
+            android:name=".Fragments_Screen.Office"
+            android:exported="false"
+            android:label="@string/title_activity_office" />
+        <activity
+            android:name=".Activity_Screen.HelpFragmentWithActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screen.CardView"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screen.Member_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screen.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_Screen.Login_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screen.MainActivity"
+            android:exported="false"
+            android:theme="@style/MyThemeNoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1026471841895",
+    "project_id": "teamup-153bf",
+    "storage_bucket": "teamup-153bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026471841895:android:842065e83831914b5204c2",
+        "android_client_info": {
+          "package_name": "com.projectmanager.teamup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026471841895-bkjprkare7hkjn57anjup2fbsce94ikf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectmanager.teamup",
+            "certificate_hash": "9126a99d59fb66e8e19e3386757727bd9ac74a96"
+          }
+        },
+        {
+          "client_id": "1026471841895-4a6has9fg369hf5bqdvi7n5k2e4a95j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF4xcbQ-z9YwOAoVzPH2NPywEzzwpnMoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026471841895-4a6has9fg369hf5bqdvi7n5k2e4a95j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
