@@ -114,7 +114,7 @@ public class Login_Screen extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // on below line we are hiding our progress bar.
                                 loadingPB.setVisibility(View.GONE);
-                                Toast.makeText(Login_Screen.this, "Login Successful..", Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(Login_Screen.this, "Login Successful..", Toast.LENGTH_SHORT).show();
 
 //                                Fragment  f = new ProfilePageFragment();
 //                                FragmentManager fm= getSupportFragmentManager();
